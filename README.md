@@ -1,6 +1,14 @@
-# About  
+# About
+Small code linter for checking Python code for its general quality.
 
-# Installation  
+# Installation
+``` sh
+# Either like
+make install
 
-# Requirements  
+# Or like
+make install-editable
+```
+
+# Requirements
 

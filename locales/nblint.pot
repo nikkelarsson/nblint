@@ -1,0 +1,37 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-16 21:26+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: nblint/main.py:60
+#, python-format
+msgid "Bad lines in total: %(total)s"
+msgstr ""
+
+#: nblint/main.py:63
+#, python-format
+msgid "Bad lines on rows: %(rows)s"
+msgstr ""
+
+#: nblint/main.py:70
+#, python-format
+msgid "%(prog)s [options...] <file.py>"
+msgstr ""
+
+#: nblint/main.py:73
+msgid "<file.py>"
+msgstr ""

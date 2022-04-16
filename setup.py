@@ -13,10 +13,12 @@ setup(
     name="nblint",  # Required
 
     # Version?
-    version="",  # Required
+    version="0.0.1a1",  # Required
 
     # What does your project do?
-    #description="",  # Optional
+    description=(
+        "Small code linter for checking Python code for its general quality."
+    ),
 
     # Longer description, that users will see when
     # they visit your project at PyPI
@@ -40,12 +42,11 @@ setup(
         #   3 - Alpha
         #   4 - Beta
         #   5 - Production/Stable
-        #"Development Status :: 3 - Alpha",
+        "Development Status :: 3 - Alpha",
 
         # Who your project is intended for?
         # More info at: https://pypi.org/classifiers/
-        #"Intended Audience :: Developers",
-        #"",
+        "Intended Audience :: Developers",
 
         # License?
         # More info at: https://pypi.org/classifiers/
@@ -54,7 +55,6 @@ setup(
         # Python versions? These aren't checked by 'pip install'
         # More info at: https://pypi.org/classifiers/
         #"Programming Language :: Python :: 3",
-
     ],
 
     # What does your project relate to?
@@ -71,13 +71,15 @@ setup(
     # Which Python versions are supported?
     # e.g. 'pip install' will check this and refuse to install
     # the project if the version doesn't match
-    #python_requires=">=3.8",  # Optional
+    python_requires=">=3.10",  # Optional
 
     # Any dependencies?
     #install_requires=[],  # Optional
 
     # Need to install, for example, man-pages that your project has?
-    #data_files=[("man/man1", ["docs/nblint.1"])],  # Optional
+    data_files=[
+        ("locale/fi_FI/LC_MESSAGES", ["locales/fi_FI/LC_MESSAGES/nblint.mo"]),
+    ],
 
     # Any executable scripts?
     # For example, the following would provide a command
@@ -85,7 +87,7 @@ setup(
     # file 'main' from package 'nblint', when invoked:
     entry_points={  # Optional
         "console_scripts": [
-            #"nblint=nblint.main:main",
+            "nblint=nblint.main:main",
         ]
     },
 
