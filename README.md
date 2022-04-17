@@ -11,4 +11,4 @@ make install-editable
 ```
 
 # Requirements
-* python3.10+
+* `python3.10+`
